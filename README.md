@@ -2,6 +2,8 @@
 
 Cross-session persistent memory for [Claude Code](https://claude.ai/code). Makes Claude remember context across multiple SSH windows and sessions.
 
+**English** | [中文](README.zh-CN.md)
+
 > **Problem**: Every time you open a new SSH window or start a new Claude Code session, Claude forgets everything — your environment setup, what you were working on, even its own capabilities.
 >
 > **Solution**: A lightweight memory layer that auto-loads context on every message and syncs between server and local machine.
